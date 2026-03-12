@@ -60,3 +60,19 @@ OPENAI_API_KEY="..." # For GPT-4o-mini response suggestions
 2. Set Build Command: `npm run build`
 3. Set Output Directory: `dist`
 4. Deploy!
+
+### How to get Reddit API Keys
+1. Go to [Reddit Apps](https://www.reddit.com/prefs/apps).
+2. Click on **"are you a developer? create an app..."** at the bottom.
+3. Fill in the details:
+   - **name**: `ceat-sentiment-dashboard` (or anything you prefer)
+   - **App type**: Select `script`
+   - **description**: Optional
+   - **about url**: Optional
+   - **redirect uri**: `http://localhost:8000` (can be any localhost URL since we are just scraping)
+4. Click **"create app"**.
+5. You will now see your credentials:
+   - **REDDIT_CLIENT_ID**: The string right under your app name (e.g., `xYzA123bC...`)
+   - **REDDIT_SECRET**: The string next to `secret` (e.g., `aBcdEfgH...`)
+
+Add these to your `.env` file!
