@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+praw
+sqlalchemy
+psycopg2-binary
+transformers
+torch
+python-dotenv
+apscheduler
+pydantic
+openai
