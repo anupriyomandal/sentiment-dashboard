@@ -3,8 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List, Dict
 
-from ..database import get_db
-from .. import models, sentiment
+from backend.database import get_db
+from backend import models, sentiment
 
 router = APIRouter()
 

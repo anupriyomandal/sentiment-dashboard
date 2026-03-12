@@ -4,8 +4,8 @@ import logging
 import uuid
 from datetime import datetime
 from sqlalchemy.orm import Session
-from . import models, sentiment, influencer
-from .database import SessionLocal
+from backend import models, sentiment, influencer
+from backend.database import SessionLocal
 
 logger = logging.getLogger(__name__)
 

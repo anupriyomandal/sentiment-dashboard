@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from . import models
+from backend import models
 
 def calculate_influence_scores(db: Session):
     """

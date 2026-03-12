@@ -2,9 +2,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 
-from .database import engine, Base
-from .routes import api
-from .workers.scheduler import start_workers
+from backend.database import engine, Base
+from backend.routes import api
+from backend.workers.scheduler import start_workers
 
 # Create DB tables
 Base.metadata.create_all(bind=engine)

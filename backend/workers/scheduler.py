@@ -1,5 +1,5 @@
 from apscheduler.schedulers.background import BackgroundScheduler
-from ..reddit_scraper import scrape_reddit_data
+from backend.reddit_scraper import scrape_reddit_data
 import logging
 
 logger = logging.getLogger(__name__)
