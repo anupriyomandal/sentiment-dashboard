@@ -50,7 +50,7 @@ export default function App() {
           <div className="bg-ceat-green text-white p-2 rounded-lg shadow-lg">
             <Activity className="w-6 h-6" />
           </div>
-          <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-ceat-green to-ceat-grey bg-clip-text text-transparent">CEAT Intelligence</h1>
+          <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-ceat-green to-ceat-grey bg-clip-text text-transparent">Anupriyo Mandal's Sentiments Intelligence</h1>
         </div>
         <Button variant="ghost" size="icon" onClick={toggleDarkMode} className="rounded-full">
           {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
